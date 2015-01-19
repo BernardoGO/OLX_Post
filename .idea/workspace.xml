@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be0c4c00-aa9b-405c-a498-9777a5aaeb30" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screen.png" afterPath="$PROJECT_DIR$/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sel.py" afterPath="$PROJECT_DIR$/sel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="olx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="sel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.23870967" vertical-offset="455" max-vertical-offset="1230">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.88387096" vertical-offset="620" max-vertical-offset="1395">
+              <caret line="87" column="116" selection-start-line="87" selection-start-column="116" selection-end-line="87" selection-end-column="116" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
               </folding>
@@ -42,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/proxy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -303,7 +305,7 @@
     <entry file="file://$PROJECT_DIR$/proxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
@@ -312,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23870967" vertical-offset="455" max-vertical-offset="1230">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.88387096" vertical-offset="620" max-vertical-offset="1395">
+          <caret line="87" column="116" selection-start-line="87" selection-start-column="116" selection-end-line="87" selection-end-column="116" />
           <folding>
             <element signature="e#49#58#0" expanded="true" />
           </folding>
