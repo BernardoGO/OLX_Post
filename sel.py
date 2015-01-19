@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.support.ui import Select
 from pyvirtualdisplay import Display
+import proxy
 
 #display = Display(visible=0, size=(800, 600))
 #display.start()
@@ -19,28 +20,30 @@ driver =  webdriver.PhantomJS(chromedriver)
 
 #chromedriver = "./chromedriver"
 #os.environ["webdriver.chrome.driver"] = chromedriver
-driver =  webdriver.Firefox()
+
+driver =  proxy.my_proxy("210.61.12.12", 3128)#webdriver.Firefox()
+driver.set_page_load_timeout(20)
 
 driver.get("http://minasgerais.olx.com.br/posting.php?pdw=33192&categ_id=832")
 
 elem = driver.find_element_by_name("title")
-elem.send_keys("smartphone selenium")
+elem.send_keys("smartphone selenium quad core")
 
 elem = driver.find_element_by_name("newDescription")
-elem.send_keys("smartphone selenium bem conservado e legal")
+elem.send_keys("bem conservado comprei amanha")
 
 elem = driver.find_element_by_name("C")
 elem.send_keys("5000")
 
 elem = driver.find_element_by_name("contact-name")
-elem.send_keys("mauricio")
+elem.send_keys("sergio")
 
 elem = driver.find_element_by_name("phone")
 elem.clear()
-elem.send_keys("3192625858")
+elem.send_keys("3193665458")
 
 elem = driver.find_element_by_name("email")
-elem.send_keys("c4046942@trbvm.com")
+elem.send_keys("c4048413@trbvm.com")
 
 elem = driver.find_element_by_name("state")
 #elem.send_keys("Minas Gera")
