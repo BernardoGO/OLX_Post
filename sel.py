@@ -16,12 +16,10 @@ os.environ["webdriver.phantomjs.driver"] = chromedriver
 driver =  webdriver.PhantomJS(chromedriver)
 
 """
-chromedriver = "./phantomjs"
-os.environ["webdriver.phantomjs.driver"] = chromedriver
-driver =  webdriver.PhantomJS(chromedriver)
+
 #chromedriver = "./chromedriver"
 #os.environ["webdriver.chrome.driver"] = chromedriver
-#driver =  webdriver.Firefox()
+driver =  webdriver.Firefox()
 
 driver.get("http://minasgerais.olx.com.br/posting.php?pdw=33192&categ_id=832")
 
