@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0c4c00-aa9b-405c-a498-9777a5aaeb30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screen.png" afterPath="$PROJECT_DIR$/screen.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sel.py" afterPath="$PROJECT_DIR$/sel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="olx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="sel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88387096" vertical-offset="620" max-vertical-offset="1395">
-              <caret line="87" column="116" selection-start-line="87" selection-start-column="116" selection-end-line="87" selection-end-column="116" />
+            <state vertical-scroll-proportion="0.6903226" vertical-offset="620" max-vertical-offset="1395">
+              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
               </folding>
@@ -314,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88387096" vertical-offset="620" max-vertical-offset="1395">
-          <caret line="87" column="116" selection-start-line="87" selection-start-column="116" selection-end-line="87" selection-end-column="116" />
+        <state vertical-scroll-proportion="0.6903226" vertical-offset="620" max-vertical-offset="1395">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
           <folding>
             <element signature="e#49#58#0" expanded="true" />
           </folding>

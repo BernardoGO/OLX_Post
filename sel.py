@@ -75,7 +75,7 @@ def post_ad(title, descri, price, username, phone):
     time.sleep(5)
     select = Select(driver.find_element_by_name("city"))
 
-    select.select_by_value("52491")
+    select.select_by_value("52491") # BElo horizonte
     time.sleep(5)
     driver.find_element_by_class_name("olx-ui-button").click();
     print "sent, now waiting"
