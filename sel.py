@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 __author__ = 'bernardo'
 
 import os
@@ -9,58 +10,68 @@ from selenium.webdriver.support.ui import Select
 from pyvirtualdisplay import Display
 import proxy
 
+
 #display = Display(visible=0, size=(800, 600))
 #display.start()
-"""
-chromedriver = "./phantomjs"
-os.environ["webdriver.phantomjs.driver"] = chromedriver
-driver =  webdriver.PhantomJS(chromedriver)
 
-"""
+def post_ad(title, descri, price, username, phone):
+    #driver =  webdriver.Firefox() #
+    driver = proxy.my_proxy("127.0.0.1", 8118)#webdriver.Firefox()
+    service_args = [
+    '--proxy=111.7.129.162:8123',
+    '--proxy-type=socks5',
+    ]
+    #browser = webdriver.PhantomJS('phantomjs',service_args=service_args)
+    #driver = webdriver.PhantomJS(executable_path='./phantomjs')
 
-#chromedriver = "./chromedriver"
-#os.environ["webdriver.chrome.driver"] = chromedriver
 
-driver =  proxy.my_proxy("210.61.12.12", 3128)#webdriver.Firefox()
-driver.set_page_load_timeout(20)
+    driver.set_window_size(800, 600)
+    driver.set_page_load_timeout(30)
+    driver.set_script_timeout(-1)
+    driver.implicitly_wait(-1)
+    straturl = "http://minasgerais.olx.com.br/posting.php?pdw=33192&categ_id=832"
+    try:
+        driver.get(straturl)
+    except:
+        driver.execute_script("window.stop();")
+        print "TIMED OUT"
+    print "running"
+    driver.save_screenshot('screen.png')
+    elem = driver.find_element_by_name("title")
+    elem.send_keys(title)
 
-driver.get("http://minasgerais.olx.com.br/posting.php?pdw=33192&categ_id=832")
+    elem = driver.find_element_by_name("newDescription")
+    elem.send_keys(descri)
 
-elem = driver.find_element_by_name("title")
-elem.send_keys("smartphone selenium quad core")
+    elem = driver.find_element_by_name("C")
+    elem.send_keys(price)
 
-elem = driver.find_element_by_name("newDescription")
-elem.send_keys("bem conservado comprei amanha")
+    elem = driver.find_element_by_name("contact-name")
+    elem.send_keys(username)
 
-elem = driver.find_element_by_name("C")
-elem.send_keys("5000")
+    elem = driver.find_element_by_name("phone")
+    elem.clear()
+    elem.send_keys(phone)
 
-elem = driver.find_element_by_name("contact-name")
-elem.send_keys("sergio")
+    elem = driver.find_element_by_name("email")
+    elem.send_keys("c4048413@trbvm.com")
 
-elem = driver.find_element_by_name("phone")
-elem.clear()
-elem.send_keys("3193665458")
+    elem = driver.find_element_by_name("state")
+    #elem.send_keys("Minas Gera")
 
-elem = driver.find_element_by_name("email")
-elem.send_keys("c4048413@trbvm.com")
+    select = Select(driver.find_element_by_name("region_ddd"))
+    select.select_by_value("25")
+    time.sleep(5)
+    select = Select(driver.find_element_by_name("city"))
 
-elem = driver.find_element_by_name("state")
-#elem.send_keys("Minas Gera")
+    select.select_by_value("52491")
+    time.sleep(5)
+    driver.find_element_by_class_name("olx-ui-button").click();
+    print "sent, now waiting"
+    while driver.current_url == straturl:
+        time.sleep(1)
+    time.sleep(10)
+    driver.quit()
 
-select = Select(driver.find_element_by_name("region_ddd"))
-select.select_by_value("25")
-time.sleep(5)
-select = Select(driver.find_element_by_name("city"))
 
-select.select_by_value("52491")
-
-driver.find_element_by_class_name("olx-ui-button").click();
-print "sent"
-time.sleep(10)
-driver.quit()
-# get performance data
-#performance = driver.execute_script("return window.performance")
-#print performance
-
-#driver.close()
+post_ad("Celular sony xperia M2", u"muito bem criado pela sony estou agora é vendendo", "250", "flavi cardoso", "3188364628")

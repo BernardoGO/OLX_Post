@@ -15,7 +15,8 @@ def my_proxy(PROXY_HOST,PROXY_PORT):
     fp.set_preference("network.proxy.type", 1)
     fp.set_preference("network.proxy.http",PROXY_HOST)
     fp.set_preference("network.proxy.http_port",int(PROXY_PORT))
-    fp.set_preference("general.useragent.override","Chrome on Linux")
+    fp.set_preference("general.useragent.override","Android")
+    fp.set_preference( "permissions.default.image", 2 )
     fp.update_preferences()
     return webdriver.Firefox(firefox_profile=fp)
 

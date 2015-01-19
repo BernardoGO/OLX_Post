@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0c4c00-aa9b-405c-a498-9777a5aaeb30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxy.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostdriver.log" afterPath="$PROJECT_DIR$/ghostdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy.py" afterPath="$PROJECT_DIR$/proxy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sel.py" afterPath="$PROJECT_DIR$/sel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,10 +32,10 @@
       <file leaf-file-name="sel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5225806" vertical-offset="180" max-vertical-offset="1065">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23225807" vertical-offset="90" max-vertical-offset="1230">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
-                <element signature="e#25#34#0" expanded="true" />
+                <element signature="e#49#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file leaf-file-name="proxy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -305,8 +305,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/proxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
@@ -315,10 +315,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5225806" vertical-offset="180" max-vertical-offset="1065">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23225807" vertical-offset="90" max-vertical-offset="1230">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="e#25#34#0" expanded="true" />
+            <element signature="e#49#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
