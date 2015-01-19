@@ -41,8 +41,8 @@
       <file leaf-file-name="sel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83225805" vertical-offset="0" max-vertical-offset="775">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="775">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
               </folding>
@@ -321,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83225805" vertical-offset="0" max-vertical-offset="775">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="775">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>

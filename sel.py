@@ -3,7 +3,7 @@ __author__ = 'bernardo'
 import os
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import timer
+import time
 
 chromedriver = "./chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
