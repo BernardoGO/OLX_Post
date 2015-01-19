@@ -44,6 +44,7 @@ def post_ad(title, descri, price, username, phone):
     try:
         driver.get(straturl)
     except:
+        #
         driver.execute_script("window.stop();")
         print "TIMED OUT"
     print "running"
@@ -65,7 +66,7 @@ def post_ad(title, descri, price, username, phone):
     elem.send_keys(phone)
 
     elem = driver.find_element_by_name("email")
-    elem.send_keys("c4048413@trbvm.com")
+    elem.send_keys("email@trbvm.com")
 
     elem = driver.find_element_by_name("state")
     #elem.send_keys("Minas Gera")
