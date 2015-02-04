@@ -15,3 +15,4 @@ git clone https://github.com/BernardoGO/OLX_Post
 
 HTTP-Remote-Desktop-Server uses the following setup:
 * [selenium]
+* [pyvirtualdisplay]
